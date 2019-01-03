@@ -1,0 +1,80 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+element.style {
+  display: flex;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #5b3a31;
+  Color: white;
+  font-size: 44px;
+  font-family: impact;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+  background-color: #845447;
+  Color: white;
+  font-size: 36px;
+  font-family: impact;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+h3 {
+  background-color: #c27d6a;
+  Color: white;
+  font-size: 28px;
+  font-family: impact;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+div {
+  max-width: 1383px;
+}
+
+photog {
+  max-width: 672px;
+  max-height: 672px;
+}
+
+img {
+  max-width: 672px;
+  max-height: 672px;
+}
+
+.app {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.descriptionleft {
+  max-width: 705px;
+  padding-left: 30px;
+  color: #7C8B88;
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.descriptionright {
+  max-width: 705px;
+  padding-right: 30px;
+  color: #7C8B88;
+  font-size: 18px;
+  font-family: helvetica;
+}
